@@ -1,5 +1,5 @@
-cars=["Tata","Bmw","Kia","nano","ford"]
+colors=["red","blue","black"]
+cars=["Tata","ford","mahindra"]
 for i in cars:
-    print(i)
-    if i=="Kia":
-        break
+    for j in colors:
+        print(j,i)
