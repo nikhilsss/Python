@@ -1,4 +1,5 @@
-def add(num1,num2):
-    sum=num1+num2
-    print(sum)
-add(22,55)
+def info(name,years):
+    print("my name is "+name)
+    print("I am "+years+" years old")
+
+info("Nikhil","18")
